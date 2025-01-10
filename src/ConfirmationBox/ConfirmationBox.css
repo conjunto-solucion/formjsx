@@ -1,0 +1,35 @@
+.formjsx-default-confirmationbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000a;
+}
+
+
+.formjsx-default-confirmationbox>div {
+    width: 15rem;
+    max-height: 18rem;
+    overflow-y: auto;
+    position: fixed;
+    left: calc(50% - 7.5rem);
+    top: calc(50vh - 4rem);
+    z-index: 10;
+    font-size: 1rem;
+
+    padding: .5rem;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.formjsx-default-confirmationbox>div * {
+    position: relative;
+    text-align: center;
+}
+
+.formjsx-default-confirmationbox>div button {
+    margin: 0;
+}

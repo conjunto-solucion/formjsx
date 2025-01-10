@@ -1,0 +1,13 @@
+.formjsx-default-colorpicker {
+    font-size: 1rem;
+}
+
+.formjsx-default-colorpicker>input {
+    display: block;
+    padding: 0;
+    height: 2.5rem;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}

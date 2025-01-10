@@ -1,0 +1,7 @@
+.formjsx-default-datetimepicker {
+    display: block;
+    border-radius: 2px;
+    border: none;
+    padding: .2rem;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.formjsx-default-select {
+    display: block;
+    margin: 0 1rem;
+    padding: 5px 10px;
+    width: max-content;
+    border: none;
+    border-radius: 5px;
+    cursor: context-menu;
+}

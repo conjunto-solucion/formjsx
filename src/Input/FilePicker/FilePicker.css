@@ -1,0 +1,25 @@
+.formjsx-default-filepicker {
+    width: max-content;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.formjsx-default-filepicker>div>input {
+    outline: none;
+}
+
+.formjsx-default-filepicker>div>svg {
+    color: black;
+    background-color: gainsboro;
+    font-size: 2rem;
+    text-justify: auto;
+    border-radius: 5px;
+    margin: 0;
+    padding: .2rem;
+}
+
+.formjsx-default-filepicker>div>svg:hover {
+    color: red;
+}

@@ -1,0 +1,14 @@
+.formjsx-default-field>input {
+  display: block;
+  border: none;
+  border-radius: 5px;
+
+  background-color: #e9e9ed;
+  margin: .5rem;
+  padding: 0.6rem;
+  width: max-content;
+  height: 1.2rem;
+}
+.formjsx-default-field>input:focus {
+  outline: 1.2px solid black;
+}

@@ -1,0 +1,32 @@
+.formjsx-default-switch {
+  width: 50px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formjsx-default-switch-on {
+  background-color: #a5a5a5;
+}
+
+.formjsx-default-switch-off {
+  background-color: #ccc;
+}
+
+.formjsx-default-switch-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  transform: translateX(0);
+}
+
+.formjsx-default-switch-on .formjsx-default-switch-thumb {
+  transform: translateX(30px);
+}
