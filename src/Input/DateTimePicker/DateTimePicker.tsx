@@ -35,7 +35,7 @@ export default function DateTime({ style, className, id, label="", type="date", 
     return <label style={style} id={id} className={className}> {label}
 
         <input
-            className="formjsx-default-datetimepicker"
+            className="formtsx-default-datetimepicker"
             min={currentDate}
             type={type}
             value={value}

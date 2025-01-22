@@ -25,7 +25,7 @@ export default function ConfirmationBox({ style, className, id, children, messag
     return <>
             { !boxIsOpen? null :
 
-            <div style={style} id={id} className={className+" formjsx-default-confirmationbox"}>
+            <div style={style} id={id} className={className+" formtsx-default-confirmationbox"}>
                 <div>
 
                     <p>{message}</p>

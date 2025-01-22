@@ -23,7 +23,7 @@ type props = {
  */
 export default function ImagePicker({style, className, id, label, note, fallbackPath, value, onChange}:props): React.JSX.Element {
 
-  return <label style={style} id={id} className={className+" formjsx-default-imagepicker"}>
+  return <label style={style} id={id} className={className+" formtsx-default-imagepicker"}>
 
     {label}<span> {note}</span>
             

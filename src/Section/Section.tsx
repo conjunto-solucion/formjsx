@@ -15,7 +15,7 @@ type props = {
  */
 export default function Section({style, className, id, children, legend}:props): React.JSX.Element {
     return (
-        <section style={style} id={id} className={className+" formjsx-default-section"}>
+        <section style={style} id={id} className={className+" formtsx-default-section"}>
             <legend>{legend}</legend>
             {children}
         </section>

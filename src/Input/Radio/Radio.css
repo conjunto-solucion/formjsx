@@ -1,15 +1,15 @@
-.formjsx-default-radio {
+.formtsx-default-radio {
     display: block;
     margin: .5rem 1rem;
     font-size: 1.2rem;
 }
 
-.formjsx-default-radio label {
+.formtsx-default-radio label {
     cursor: pointer;
     margin: 0 1rem;
 }
 
-.formjsx-default-radio [type="radio"] {
+.formtsx-default-radio [type="radio"] {
     cursor: pointer;
     margin: 0 .2rem 0;
     padding: 0;

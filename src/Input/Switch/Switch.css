@@ -1,4 +1,4 @@
-.formjsx-default-switch {
+.formtsx-default-switch {
   width: 50px;
   height: 25px;
   background-color: #ccc;
@@ -10,15 +10,15 @@
   transition: background-color 0.3s;
 }
 
-.formjsx-default-switch-on {
+.formtsx-default-switch-on {
   background-color: #a5a5a5;
 }
 
-.formjsx-default-switch-off {
+.formtsx-default-switch-off {
   background-color: #ccc;
 }
 
-.formjsx-default-switch-thumb {
+.formtsx-default-switch-thumb {
   width: 20px;
   height: 20px;
   background-color: white;
@@ -27,6 +27,6 @@
   transform: translateX(0);
 }
 
-.formjsx-default-switch-on .formjsx-default-switch-thumb {
+.formtsx-default-switch-on .formtsx-default-switch-thumb {
   transform: translateX(30px);
 }

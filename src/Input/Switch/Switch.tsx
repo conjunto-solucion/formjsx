@@ -27,10 +27,10 @@ export default function Switch({ style, className="", id="", isOn = false, onTog
 
     return (
         <div style={style} id={id}
-        className={`${className} formjsx-default-switch ${state ? 'formjsx-default-switch-on' : 'formjsx-default-switch-off'}`}
+        className={`${className} formtsx-default-switch ${state ? 'formtsx-default-switch-on' : 'formtsx-default-switch-off'}`}
         onClick={handleClick}
         >
-            <div className="formjsx-default-switch-thumb" />
+            <div className="formtsx-default-switch-thumb" />
         </div>
     )
 }

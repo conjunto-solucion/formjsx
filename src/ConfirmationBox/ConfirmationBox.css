@@ -1,4 +1,4 @@
-.formjsx-default-confirmationbox {
+.formtsx-default-confirmationbox {
     position: fixed;
     top: 0;
     left: 0;
@@ -9,7 +9,7 @@
 }
 
 
-.formjsx-default-confirmationbox>div {
+.formtsx-default-confirmationbox>div {
     width: 15rem;
     max-height: 18rem;
     overflow-y: auto;
@@ -25,11 +25,11 @@
     background-color: white;
 }
 
-.formjsx-default-confirmationbox>div * {
+.formtsx-default-confirmationbox>div * {
     position: relative;
     text-align: center;
 }
 
-.formjsx-default-confirmationbox>div button {
+.formtsx-default-confirmationbox>div button {
     margin: 0;
 }

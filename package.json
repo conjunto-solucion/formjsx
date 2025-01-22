@@ -1,22 +1,24 @@
 {
-  "name": "formjsx",
+  "name": "formtsx",
   "version": "1.0.0",
   "description": "Componentes reutilizables para formularios",
-  "main": "index.js",
+  "main": "formtsx/index.js",
+  "module": "formtsx/index.cjs.js",
+  "types": "formtsx/types/index.d.ts",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/conjunto-solucion/formjsx.git"
+    "url": "git+https://github.com/conjunto-solucion/formtsx.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Juan Andrés@conjunto-solución",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/conjunto-solucion/formjsx/issues"
+    "url": "https://github.com/conjunto-solucion/formtsx/issues"
   },
-  "homepage": "https://github.com/conjunto-solucion/formjsx#readme",
+  "homepage": "https://github.com/conjunto-solucion/formtsx#readme",
   "peerDependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

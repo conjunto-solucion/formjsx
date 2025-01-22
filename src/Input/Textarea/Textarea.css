@@ -1,4 +1,4 @@
-.formjsx-default-textarea>textarea {
+.formtsx-default-textarea>textarea {
     font-size: .9rem;
     display: block;
     margin: .1rem;
@@ -12,6 +12,6 @@
     outline: none;
 }
 
-.formjsx-default-textarea>textarea:focus {
+.formtsx-default-textarea>textarea:focus {
     outline: 1px solid black;
 }

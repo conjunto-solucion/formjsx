@@ -21,7 +21,7 @@ type props = {
  */
 export default function ColorPicker({style={}, className="", id="", label="", note="", value, onChange}:props): React.JSX.Element {
   return (
-    <label className={className+" formjsx-default-colorpicker"} style={style} id={id}>
+    <label className={className+" formtsx-default-colorpicker"} style={style} id={id}>
         {label}<span> {note}</span>
         <input
           value={value}

@@ -1,5 +1,5 @@
-.formjsx-default-retractable>div:nth-child(1),
-.formjsx-default-retractable-folded>div:nth-child(1) {
+.formtsx-default-retractable>div:nth-child(1),
+.formtsx-default-retractable-folded>div:nth-child(1) {
     display: flex;
     align-items: center;
     flex-flow: nowrap;
@@ -9,16 +9,16 @@
     cursor:pointer;
 }
 
-.formjsx-default-retractable-folded>div:first-child>svg,
-.formjsx-default-retractable>div:first-child>svg {
+.formtsx-default-retractable-folded>div:first-child>svg,
+.formtsx-default-retractable>div:first-child>svg {
     display: block;
     font-size: 2rem;
     margin: 0 .5rem;
 }
 
-.formjsx-default-retractable>div:nth-child(2) {
+.formtsx-default-retractable>div:nth-child(2) {
     padding-bottom: 2rem;
 }
-.formjsx-default-retractable-folded>div:nth-child(2) {
+.formtsx-default-retractable-folded>div:nth-child(2) {
     display: none;   
 }

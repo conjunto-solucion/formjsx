@@ -22,7 +22,7 @@ type props = {
  */
 export default function Image({style, className, id, label, note, value, onChange}:props): React.JSX.Element {
 
-  return <label id={id} style={style} className={className+" formjsx-default-filepicker"}>
+  return <label id={id} style={style} className={className+" formtsx-default-filepicker"}>
 
     {label}<span> {note}</span>
     

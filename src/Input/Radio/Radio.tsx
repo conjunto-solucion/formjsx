@@ -22,7 +22,7 @@ type props = {
  * @param props.onChange Función manejadora de evento de cambio de valor. Se pasa como argumento el nuevo valor.
  */
 export default function Radio({style, id, className="", legend, note, options, value, onChange}: props): React.JSX.Element {
-    return <legend className={className+" formjsx-default-radio"} style={style} id={id}>
+    return <legend className={className+" formtsx-default-radio"} style={style} id={id}>
 
         {legend}
         <span> {note}</span>
@@ -34,7 +34,7 @@ export default function Radio({style, id, className="", legend, note, options, v
                     type="radio"
                     name={legend}
                     checked={option === value}
-                    className={option === value?"formjsx-default-radio-checked":""}
+                    className={option === value?"formtsx-default-radio-checked":""}
                     value={option}
                     onChange={e => onChange(e.target.value)}
                 />

@@ -20,7 +20,7 @@ type props = {
 export default function Button({style, className, id, textContent="", type="button", onClick}:props): React.JSX.Element {
     return (
         
-        <button style={style} className={className+" formjsx-default-button"}  id={id}
+        <button style={style} className={className+" formtsx-default-button"}  id={id}
         type={type} onClick={onClick}>
 
             {textContent}

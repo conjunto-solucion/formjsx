@@ -21,7 +21,7 @@ export default function Select({style, className, id, options, value, onChange}:
 
     return (
 
-        <select style={style} id={id} className={className+" formjsx-default-select"}
+        <select style={style} id={id} className={className+" formtsx-default-select"}
         onChange={e=>onChange(e.target.value)}
         value={value}
         >

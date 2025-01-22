@@ -20,7 +20,7 @@ type props = {
  * @param props.onChange Función manejadora del evento de cambio de valor. Se pasa como argumento el nuevo valor.
  */
 export default function Textarea({style, className="", id="", label, maxLength=50, value, onChange}:props):React.JSX.Element {
-    return <label style={style} className={className+" formjsx-default-textarea"} id={id}>
+    return <label style={style} className={className+" formtsx-default-textarea"} id={id}>
         {label}
         <textarea maxLength={maxLength} value={value} spellCheck={false}
         onChange={e=>onChange(e.target.value)} />

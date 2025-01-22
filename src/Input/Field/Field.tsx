@@ -24,7 +24,7 @@ type props = {
  */
 export default function Field({ style, className, id, label="", note, placeholder, type="text", value, onChange }: props): React.JSX.Element {
     
-    return <label style={style} className={className+" formjsx-default-field"} id={id}> {label}
+    return <label style={style} className={className+" formtsx-default-field"} id={id}> {label}
     {note?<span> {note}</span>: null}
         <input
             placeholder={placeholder}

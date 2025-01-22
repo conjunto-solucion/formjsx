@@ -1,4 +1,4 @@
-.formjsx-default-field>input {
+.formtsx-default-field>input {
   display: block;
   border: none;
   border-radius: 5px;
@@ -9,6 +9,6 @@
   width: max-content;
   height: 1.2rem;
 }
-.formjsx-default-field>input:focus {
+.formtsx-default-field>input:focus {
   outline: 1.2px solid black;
 }

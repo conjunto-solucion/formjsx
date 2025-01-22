@@ -2,17 +2,19 @@
   "compilerOptions": {
     "target": "ES5",
     "module": "ESNext",
-    "jsx": "react-jsx",
-    "declaration": true,
-    "declarationDir": "dist/types",
-    "outDir": "dist",
-    "strict": true,
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "./formtsx",
+    "emitDeclarationOnly": false
   },
 
   "include": ["src/**/*"],
 
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "formtsx"]
 }

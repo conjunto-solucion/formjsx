@@ -18,7 +18,7 @@ type props = {
  */
 export default function Form({ style, className, id, children, formTitle, onSubmit=()=>{return} }: props): React.JSX.Element {
     return (
-        <form style={style} className={className+" formjsx-default-form"} id={id}
+        <form style={style} className={className+" formtsx-default-form"} id={id}
         onSubmit={e => { e.preventDefault(); onSubmit() }}>
             <legend>{formTitle}</legend>
             {children}

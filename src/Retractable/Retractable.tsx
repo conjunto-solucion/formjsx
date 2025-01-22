@@ -33,7 +33,7 @@ export default function Retractable({ style, className, id, children, label, ini
     }
 
     return (
-        <div id={id} style={style} className={isUnfolded ? className+" formjsx-default-retractable" : className+" formjsx-default-retractable-folded" }>
+        <div id={id} style={style} className={isUnfolded ? className+" formtsx-default-retractable" : className+" formtsx-default-retractable-folded" }>
 
             <div onClick={change}>
 

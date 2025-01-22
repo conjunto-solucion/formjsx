@@ -1,4 +1,4 @@
-.formjsx-default-fieldstable {
+.formtsx-default-fieldstable {
     display: block;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -10,15 +10,15 @@
     max-height: 25rem;
     overflow: auto;
 }
-.formjsx-default-fieldstable thead {
+.formtsx-default-fieldstable thead {
     cursor: default;
     
 }
 
-.formjsx-default-fieldstable thead tr {
+.formtsx-default-fieldstable thead tr {
     position: relative;
 }
-.formjsx-default-fieldstable thead tr th {
+.formtsx-default-fieldstable thead tr th {
     color: gray;
     background-color: #e9e9ed;
     border-bottom: lightgray solid 1px;
@@ -35,15 +35,15 @@
 
 
 
-.formjsx-default-fieldstable tbody {
+.formtsx-default-fieldstable tbody {
     white-space: nowrap;
 }
 
-.formjsx-default-fieldstable tbody tr{
+.formtsx-default-fieldstable tbody tr{
     line-height: 0;
 }
 
-.formjsx-default-fieldstable svg {
+.formtsx-default-fieldstable svg {
     display: block;
     text-align: center;
     margin: .4rem auto;
@@ -51,11 +51,11 @@
     color: gray;
     font-size: 1.5rem;
 }
-.formjsx-default-fieldstable svg:hover {
+.formtsx-default-fieldstable svg:hover {
     cursor: pointer;
     color: black;
     transform: scale(1.1);
 }
-.formjsx-default-fieldstable tbody label {
+.formtsx-default-fieldstable tbody label {
     margin: 0 .1rem;
 }

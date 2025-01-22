@@ -47,7 +47,7 @@ export default function Table({ style={}, className="", id="", label="", thead, 
     return (<>
     
         <legend>{label}</legend>
-        <table className={className+" formjsx-default-fieldstable"} cellSpacing={0} cellPadding={0} style={style} id={id}>
+        <table className={className+" formtsx-default-fieldstable"} cellSpacing={0} cellPadding={0} style={style} id={id}>
 
             <thead><tr>
                 { thead.map((header, index) => <th key={index}>{header.name}</th> )}

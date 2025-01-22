@@ -1,4 +1,4 @@
-.formjsx-default-section {
+.formtsx-default-section {
     background-color: white;
     border-radius: 0px;
     margin: 2rem;
@@ -6,7 +6,7 @@
     max-width: 800px;
 }
 
-.formjsx-default-section>legend:nth-child(1) {
+.formtsx-default-section>legend:nth-child(1) {
     margin: .4rem;
     text-align: center;
     font-size: 1rem;

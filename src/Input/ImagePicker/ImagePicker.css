@@ -1,15 +1,15 @@
-.formjsx-default-imagepicker {
+.formtsx-default-imagepicker {
     width: max-content;
     cursor: pointer;
     position: relative;
     display: block;
     font-size: 1rem;
 }
-.formjsx-default-imagepicker>input {
+.formtsx-default-imagepicker>input {
     display: none;
 }
 
-.formjsx-default-imagepicker>div {
+.formtsx-default-imagepicker>div {
     background-color: gainsboro;
     width: 10rem;
     height: 10rem;
@@ -18,11 +18,11 @@
     border: 1px solid transparent;
     overflow: hidden;
 }
-.formjsx-default-imagepicker>div:hover {
+.formtsx-default-imagepicker>div:hover {
     background-color: #ccc;
 }
 
-.formjsx-default-imagepicker>div>img {
+.formtsx-default-imagepicker>div>img {
     background-color: gainsboro;
     align-content: center;
     width: 100%;
@@ -31,7 +31,7 @@
     image-rendering:auto;
 }
 
-.formjsx-default-imagepicker>svg {
+.formtsx-default-imagepicker>svg {
     color: black;
     background-color: gainsboro;
     font-size: 2rem;
@@ -46,6 +46,6 @@
     z-index: 1;
 }
 
-.formjsx-default-imagepicker>svg:hover {
+.formtsx-default-imagepicker>svg:hover {
     color: red;
 }
