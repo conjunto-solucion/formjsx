@@ -18,3 +18,4 @@ export {default as Section} from './Section/Section';
 export {default as Conditional} from './Conditional/Conditional';
 export {default as FlexDiv} from './FlexDiv/FlexDiv';
 export {default as ConfirmationBox} from './ConfirmationBox/ConfirmationBox';
+export {default as OutsideClickHandler} from './OutsideClickHandler/OutsideClickHandler';
