@@ -16,16 +16,32 @@ Ejecute en el directorio principal:
 $ npm run build
 ```
 
-Los archivos generados estarán en `formtsx/`
+Los archivos generados estarán en `./formtsx/`
 
 ## Uso
 
-Esta es una biblioteca de uso personal que no está publicada en npm y necesita incluirse manualmente en su proyecto. Incluya el directorio `formtsx`, que se genera al ejecutar `npm run build`.
+Esta es una biblioteca de uso personal que no está publicada en npm y necesita incluirse manualmente en su proyecto. 
+Hay dos formas de hacer esto.
 
-Incluya los componentes que desea con:
+**La primera opción**: incluya el código fuente de la biblioteca en su proyecto.
+
+* Copie el contenido de `./src` en algún directorio dentro de `src` de su proyecto.
+
+**La segunda opción**: enlace la biblioteca a su proyecto con npm link.
+
+* Ejecute `npm run build` en este directorio para compilar formtsx. El código generado está en `./formtsx/`.
+
+* Ejecute `sudo npm link` en este directorio.
+
+* Copie la ruta absoluta de este directorio (`./`).
+
+* Diríjase a su proyecto, y en la raíz ejecute `sudo npm link la/ruta/que/ha/copiado`. Esto agrega un enlance simbólico a formtsx dentro de node_modules para que pueda usarlo en su proyecto como cualquier otra biblioteca.
+
+
+Una vez implementada alguna de estas dos opciones, incluya los componentes que desea con:
 
 ```ts
-import {Button, Form, Retractable, Section, FlexDiv, ConfirmationBox, DateTimePicker, Select, Field,ImagePicker,FilePicker, Radio, Textarea, Switch,ColorPicker, FieldsTable} from 'path/to/formtsx';
+import {Button, Form, Retractable, Section, FlexDiv, ConfirmationBox, DateTimePicker, Select, Field,ImagePicker,FilePicker, Radio, Textarea, Switch,ColorPicker, FieldsTable, OutsideClickHandler} from 'path/to/formtsx';
 ```
 
 ## Ejemplo:

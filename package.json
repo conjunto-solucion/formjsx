@@ -1,40 +1,37 @@
 {
   "name": "formtsx",
   "version": "1.0.0",
-  "description": "Componentes reutilizables para formularios",
-  "main": "formtsx/index.js",
-  "module": "formtsx/index.cjs.js",
-  "types": "formtsx/types/index.d.ts",
+  "type": "module",
+  "description": "Componentes reutilizables de React para formularios",
+  "main": "formtsx/index.cjs.js",
+  "module": "formtsx/index.es.js",
+  "types": "formtsx/index.d.ts",
+  "files": [
+    "formtsx"
+  ],
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "tsc && vite build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/conjunto-solucion/formtsx.git"
   },
   "keywords": [],
-  "author": "Juan Andrés@conjunto-solución",
+  "author": "Juan Andrés",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/conjunto-solucion/formtsx/issues"
   },
   "homepage": "https://github.com/conjunto-solucion/formtsx#readme",
   "peerDependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.0",
-    "@babel/preset-env": "^7.26.0",
-    "@babel/preset-react": "^7.26.3",
-    "@types/react": "^19.0.4",
-    "@types/react-dom": "^19.0.2",
-    "babel-loader": "^9.2.1",
-    "css-loader": "^7.1.2",
-    "style-loader": "^4.0.0",
+    "@types/react": "^18.0.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.7.3",
-    "webpack": "^5.97.1",
-    "webpack-cli": "^6.0.1"
+    "vite": "^6.0.11",
+    "vite-plugin-dts": "^4.5.0",
+    "vite-plugins": "^0.0.2"
   }
 }
